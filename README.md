@@ -1,6 +1,6 @@
 # NetScope — Network Monitor & Malicious Request Detector
 
-![NetScope — System-wide network monitoring with an eye-and-lens packet-flow mark.](branding/github-banner.svg "NetScope")
+![NetScope — To know where your data goes.](branding/github-banner.svg "NetScope")
 
 A local-first Windows desktop monitor that records the network activity of the
 whole machine - inbound and outbound - and flags suspicious behaviour. Built
