@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-label="NetScope">
+<title>NetScope</title>
+<desc>System-wide network monitoring with an eye-and-lens packet-flow mark.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2B1A10"/>
+    <stop offset="1" stop-color="#0C0805"/>
+  </linearGradient>
+  <linearGradient id="eye" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF4A00"/>
+    <stop offset="1" stop-color="#FFB070"/>
+  </linearGradient>
+</defs>
+<rect width="1280" height="480" fill="url(#bg)"/>
+<rect x="1" y="1" width="1278" height="478" fill="none" stroke="#FF7A26" stroke-opacity="0.25" stroke-width="2"/>
+<g transform="translate(110 92) scale(1.16)">
+  <circle cx="128" cy="128" r="96" fill="#FF5C00" fill-opacity="0.12"/>
+  <g fill="none" stroke="#FFA05A" stroke-opacity="0.55" stroke-width="2.5" stroke-dasharray="6 5">
+    <path d="M9 128 H38"/>
+    <path d="M218 128 H247"/>
+  </g>
+  <path d="M42 128 C68 87 96 72 128 72 C160 72 188 87 214 128 C188 169 160 184 128 184 C96 184 68 169 42 128Z" fill="none" stroke="url(#eye)" stroke-width="18" stroke-linejoin="round"/>
+  <circle cx="128" cy="128" r="37" fill="#FF4A00"/>
+  <circle cx="128" cy="128" r="31" fill="#FF7A26"/>
+  <circle cx="128" cy="128" r="26" fill="#0B0705"/>
+  <circle cx="128" cy="128" r="8" fill="#FF8C3C" fill-opacity="0.6"/>
+  <g fill="#FFB070">
+    <circle cx="17" cy="128" r="4"/>
+    <circle cx="33" cy="128" r="5.5"/>
+    <circle cx="47" cy="128" r="2.75"/>
+    <circle cx="209" cy="128" r="2.75"/>
+    <circle cx="223" cy="128" r="5.5"/>
+    <circle cx="239" cy="128" r="4"/>
+  </g>
+</g>
+<text x="470" y="196" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-weight="700" font-size="76" fill="#FFF5EE">NetScope</text>
+<rect x="472" y="224" width="180" height="8" rx="4" fill="#FF7A26"/>
+<text x="472" y="292" font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="30" fill="#FFB070">See every connection. Keep it local.</text>
+<g font-family="Segoe UI, Ubuntu, Cantarell, sans-serif" font-size="23" fill="#EBD9CC">
+  <rect x="472" y="334" width="218" height="46" rx="23" fill="#1A100A" stroke="#FF7A26" stroke-opacity="0.45"/>
+  <text x="494" y="365">Windows ETW capture</text>
+  <rect x="706" y="334" width="160" height="46" rx="23" fill="#1A100A" stroke="#FF7A26" stroke-opacity="0.45"/>
+  <text x="728" y="365">Local SQLite</text>
+  <rect x="882" y="334" width="190" height="46" rx="23" fill="#1A100A" stroke="#FF7A26" stroke-opacity="0.45"/>
+  <text x="904" y="365">Hosts file editor</text>
+</g>
+</svg>

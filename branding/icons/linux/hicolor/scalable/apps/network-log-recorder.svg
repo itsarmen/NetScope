@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5E2750"/>
+      <stop offset="0.55" stop-color="#9B2F4B"/>
+      <stop offset="1" stop-color="#E95420"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="url(#bg)"/>
+
+  <!-- code braces -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 62 Q62 62 62 84 L62 112 Q62 128 46 128 Q62 128 62 144 L62 172 Q62 194 84 194"/>
+    <path d="M172 62 Q194 62 194 84 L194 112 Q194 128 210 128 Q194 128 194 144 L194 172 Q194 194 172 194"/>
+  </g>
+
+  <!-- request / response arrows -->
+  <g fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#FFFFFF">
+      <line x1="110" y1="164" x2="110" y2="94"/>
+      <polyline points="94,110 110,94 126,110"/>
+    </g>
+    <g stroke="#FFC9B0">
+      <line x1="146" y1="92" x2="146" y2="162"/>
+      <polyline points="130,146 146,162 162,146"/>
+    </g>
+  </g>
+</svg>

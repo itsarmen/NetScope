@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>NetScope (legacy globe concept)</title>
+  <desc>Earlier globe-and-arrows concept. Superseded by the eye/lens packet-flow mark in logo.svg.</desc>
+  <rect x="72" y="72" width="880" height="880" rx="210" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <circle cx="512" cy="512" r="210" fill="#FFFFFF"/>
+  <g fill="none" stroke="#E95420" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M372,450 L652,450 M606,404 L652,450 L606,496"/>
+    <path d="M652,574 L372,574 M418,528 L372,574 L418,620"/>
+  </g>
+</svg>

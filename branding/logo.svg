@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="NetScope">
+<title>NetScope</title>
+<desc>An eye and camera lens with packet-flow nodes.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2B1A10"/>
+    <stop offset="1" stop-color="#0C0805"/>
+  </linearGradient>
+  <linearGradient id="eye" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF4A00"/>
+    <stop offset="0.55" stop-color="#FF7A26"/>
+    <stop offset="1" stop-color="#FFB070"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#FF5C00" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#FF5C00" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="8" y="8" width="240" height="240" rx="54" fill="url(#bg)"/>
+<circle cx="128" cy="128" r="96" fill="url(#glow)"/>
+<g fill="none" stroke="#FFA05A" stroke-opacity="0.55" stroke-width="2.5" stroke-dasharray="6 5">
+  <path d="M9 128 H38"/>
+  <path d="M218 128 H247"/>
+</g>
+<path d="M42 128 C68 87 96 72 128 72 C160 72 188 87 214 128 C188 169 160 184 128 184 C96 184 68 169 42 128Z" fill="none" stroke="url(#eye)" stroke-width="18" stroke-linejoin="round"/>
+<circle cx="128" cy="128" r="37" fill="#FF4A00"/>
+<circle cx="128" cy="128" r="31" fill="#FF7A26"/>
+<circle cx="128" cy="128" r="26" fill="#0B0705"/>
+<circle cx="128" cy="128" r="21" fill="none" stroke="#FFB070" stroke-opacity="0.82" stroke-width="2"/>
+<circle cx="128" cy="128" r="8" fill="#FF8C3C" fill-opacity="0.6"/>
+<g fill="#FFB070">
+  <circle cx="17" cy="128" r="4"/>
+  <circle cx="33" cy="128" r="5.5"/>
+  <circle cx="47" cy="128" r="2.75"/>
+  <circle cx="209" cy="128" r="2.75"/>
+  <circle cx="223" cy="128" r="5.5"/>
+  <circle cx="239" cy="128" r="4"/>
+</g>
+</svg>
